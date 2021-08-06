@@ -20,3 +20,24 @@ body{height:100%;
      background:rgb(36, 92, 212) ;
      font-weight: 600;
  }
+ .casting img{
+     height: 250px;
+     width: 200px;;
+ }
+.left-box{
+    color: oldlace;
+}
+.left-box a{
+    text-decoration:none !important ;
+     border-radius:30px;
+     padding: 7px 20px;
+margin-top: 15px;
+     color: #fff !important;
+     background:rgba(15, 231, 62, 0.616) ;
+     font-weight: 600;
+     display: inline-block;
+     margin-right:10px;
+}
+.fa{
+    margin: 0 5px;
+}
