@@ -6,7 +6,8 @@ body{height:100%;
     /*css hack for ie*/     
     filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
     -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
- }
+
+}
  .header{
      height: 10%;
  }
@@ -19,11 +20,9 @@ body{height:100%;
      color: #fff !important;
      background:rgb(36, 92, 212) ;
      font-weight: 600;
- }
- .casting img{
-     height: 250px;
-     width: 200px;;
- }
+     margin-right:10px;
+    }
+ 
 .left-box{
     color: oldlace;
 }
@@ -40,4 +39,19 @@ margin-top: 15px;
 }
 .fa{
     margin: 0 5px;
+}
+.movie-img{
+    height: 300px;
+    box-shadow: -3px 4px 4px 0 #000 ;
+}
+.series{
+    color: #fff;
+}
+.series img{
+width: 100%;
+margin: 15px;
+box-shadow:-3px 4px 4px 0 #000;
+cursor: pointer;
+height:100%;
+    width:100%
 }
