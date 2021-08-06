@@ -1,14 +1,22 @@
 body{height:100%;
     width:100%;
-    background-image:url(img2.jpg);/*your background image*/  
-    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
-    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+    background-image:url(img2.jpg);
+    background-repeat:center;
+    background-size:cover;
     /*css hack for ie*/     
     filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
     -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
  }
- .logo
- {
-     width: 150px;
-     margin-top:  18px; ;
+ .header{
+     height: 10%;
+ }
+ .header-btn{
+     text-decoration:none ;
+     border-radius:30px;
+     padding: 7px 20px;
+     float: right;
+     margin-top: 15px;
+     color: #fff !important;
+     background:rgb(36, 92, 212) ;
+     font-weight: 600;
  }
