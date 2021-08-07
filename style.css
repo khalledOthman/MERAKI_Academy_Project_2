@@ -52,6 +52,9 @@ width: 100%;
 margin: 15px;
 box-shadow:-3px 4px 4px 0 #000;
 cursor: pointer;
-height:100%;
-    width:100%
+
+    transition:1s;
+}
+.series img:hover{
+    transform: translateY(-10px);
 }
