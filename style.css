@@ -1,6 +1,6 @@
 body{height:100%;
     width:100%;
-    background-image:url(img2.jpg);
+    background-image:url(image/img2.jpg);
     background-repeat:center;
     background-size:cover;
     /*css hack for ie*/     
@@ -57,4 +57,8 @@ cursor: pointer;
 }
 .series img:hover{
     transform: translateY(-10px);
+}
+.s{
+    height:150px;
+    width: 150px;;
 }
